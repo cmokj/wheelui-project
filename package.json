@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/cmokj/wheelui-project/issues"
   },
-  "homepage": "https://github.com/cmokj/wheelui-project#readme"
+  "homepage": "https://github.com/cmokj/wheelui-project#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
