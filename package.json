@@ -1,0 +1,23 @@
+{
+  "name": "wheekui",
+  "version": "1.0.0",
+  "description": "这是一个 UI 框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmokj/wheelui-project.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "cmokj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmokj/wheelui-project/issues"
+  },
+  "homepage": "https://github.com/cmokj/wheelui-project#readme"
+}
