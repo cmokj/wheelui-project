@@ -20,19 +20,32 @@ new Vue({
 
 const expect = chai.expect;
 chai.use(spies)
+
 // 单元测试
 {
+    // 构造函数
     const Constructor = Vue.extend(Button);
+
+    // 添加实例
     const vm = new Constructor({
+        // 传递属性
         propsData: {
             icon: 'setting'
         }
     })
+
+    // 挂载到页面
     vm.$mount();
+
+    // 选择 button 中的 use 元素
     let useElement = vm.$el.querySelector('use');
     let href = useElement.getAttribute('xlink:href');
     expect(href).to.eq('#i-setting');
+
+    // 页面中移出
     vm.$el.remove();
+
+    // 内存清楚
     vm.$destroy();
 }
 {
